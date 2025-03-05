@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود و ثبت‌نام</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>بازی شطرنج آنلاین</h1>
+
+        <!-- بخش ثبت‌نام -->
+        <div id="register-section">
+            <h2>ثبت‌نام</h2>
+            <form id="registerForm">
+                <input type="text" id="register-username" placeholder="نام کاربری" required>
+                <input type="password" id="register-password" placeholder="رمز عبور" required>
+                <button type="submit">ثبت‌نام</button>
+            </form>
+        </div>
+
+        <!-- بخش ورود -->
+        <div id="login-section">
+            <h2>ورود</h2>
+            <form id="loginForm">
+                <input type="text" id="login-username" placeholder="نام کاربری" required>
+                <input type="password" id="login-password" placeholder="رمز عبور" required>
+                <button type="submit">ورود</button>
+            </form>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
